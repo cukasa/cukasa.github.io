@@ -2,7 +2,7 @@
 #RewriteCond %{HTTP_USER_AGENT} (?i:midp|samsung|iphone|android)
 #RewriteRule ^(/)?$ https://cukasa.github.io/m [R=301]
 
-RewriteEngine On
+#RewriteEngine On
 # Проверка mime типов, которые обычно поддерживаются мобильными устройствами 
 #RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC] 
 #RewriteCond %{REQUEST_URI} ^/$ 
