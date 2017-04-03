@@ -1,3 +1,7 @@
 RewriteEngine On
+#не проверял 
 RewriteCond %{HTTP_USER_AGENT} (?i:midp|samsung|iphone|android)
 RewriteRule ^(/)?$ https://cukasa.github.io/m [R=301]
+#не проверял
+RewriteCond %{HTTP_USER_AGENT} (?i:midp|samsung|iphone|android)
+RewriteRule ^(/)?$ http://m.domain.com/ [R=301]
