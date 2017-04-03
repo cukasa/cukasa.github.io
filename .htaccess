@@ -1,2 +1,2 @@
 RewriteCond %{HTTP_USER_AGENT} (?i:midp|samsung|iphone|android)
-RewriteRule ^(/)?$ http://m.domain.com/ [R=301]
+RewriteRule ^(/)?$ https://cukasa.github.io/m [R=301]
